@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="css/complain.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="app.js"></script>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img src="logo.jfif">
+            </div>
+           <div class="topnav">
+              <div id="myLinks">
+                <a class="menu"  href="Home Page.html">Home</a>
+                <a  class="menu" href="Complain.html">Complain</a>
+              </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class = "content">
+        <section>Complain</section>
+        <form action = "/action_page.php" method="post">
+            <div class = "field bor"> 
+                <input type = "text" required placeholder="Description">
+            </div>
+                <div class = "field space bor"> 
+                    <input type = "url" required placeholder="Enter URL">
+                </div>
+            
+            <div class = "field space"> 
+                <input type = "submit" value="SUBMIT">
+            </div>
+        </form>
+    </div>
+    
+    <footer>
+        <div class = "footer">
+            <p>The Nasty Crawlers</p>
+        </div>
+    </footer> 
+</body>
+</html>
