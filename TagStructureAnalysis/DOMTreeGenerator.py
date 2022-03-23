@@ -4,7 +4,7 @@ from anytree.exporter import JsonExporter
 
 # extract tags from html
 pattern = re.compile('</?!?[A-Z]*[a-z]*[a-z0-9]*>?')
-string =  open("DCdutchconnectionUK.htm", "r")
+string =  open("marketplaces/DCdutchconnectionUK.htm", "r")
 
 tagList = re.findall(pattern, string.read())
 
